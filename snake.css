@@ -1,0 +1,26 @@
+div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: yellow;
+    display:inline-block;
+  
+}
+.one
+{
+ display: flex;
+ justify-content: center;
+}
+#one div:nth-of-type(2n+1)
+{
+    background-color:  blue;
+}
+
+#two div:nth-of-type(2n+1)
+{
+    background-color:  greenyellow;
+}
+#two div:nth-of-type(2n)
+{
+    background-color:  pink;
+}
